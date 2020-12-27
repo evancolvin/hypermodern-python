@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hypermodern-python-emc"
+version = "0.1.0"
+description = "Following along with the hypermodern python project"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/evancolvin/hypermodern-python-emc"
+repository = "https://github.com/evancolvin/hypermodern-python-emc"
+keywords = ["hypermodern"]
+authors = ["evan <evancolvin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
