@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hypermodern-python-emc"
+name = "hypermodern-python"
 version = "0.1.0"
 description = "Following along with the hypermodern python project"
 license = "MIT"
@@ -14,6 +14,9 @@ python = "^3.9"
 click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+hypermodern-python = "hypermodern_python.console:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
